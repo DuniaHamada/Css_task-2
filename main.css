@@ -1,0 +1,75 @@
+/*Public style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+
+/* NavPar*/
+.navPar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navPar {
+  background-color: black;
+  padding: 10px;
+}
+
+/*NavPar Logo*/
+.logo {
+  width: 400px;
+}
+
+.logo img {
+  width: 50%;
+}
+
+/*NavPar List*/
+
+.List ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.List a {
+  text-transform: uppercase;
+  color: white;
+  margin-right: 15px;
+}
+
+/*Portfolio*/
+.portfolio {
+  background-color: rgb(236, 232, 232);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.portfolio-item {
+  display: flex;
+  width: 33.33%;
+  padding-right: 30px;
+}
+.portfolio img {
+  width: 100%;
+}
+
+.portfolio h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.portfolio p {
+  margin-bottom: 10px;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+}
